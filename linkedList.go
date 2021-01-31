@@ -52,7 +52,7 @@ func (list *LinkedList) insertNode(newNode *Node) {
 	list.Length++
 }
 
-// Removes a node into a LinkedList
+// Removes a node from a LinkedList
 func (list *LinkedList) deleteNode(query string) {
 	var previousNode *Node
 
