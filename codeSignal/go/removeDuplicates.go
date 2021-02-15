@@ -1,4 +1,4 @@
-package main
+package codesignal
 
 func removeDuplicates(nums *[]int) int {
 	var deduped []int

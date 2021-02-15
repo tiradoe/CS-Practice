@@ -1,10 +1,4 @@
-package main
-
-//func main() {
-//	fmt.Println("bananahammock: ", checkPalindrome("bananahammock"))
-//	fmt.Println("racecar: ", checkPalindrome("racecar"))
-//	fmt.Println("abac: ", checkPalindrome("abac"))
-//}
+package codesignal
 
 func checkPalindrome(inputString string) bool {
 	i := len(inputString) - 1

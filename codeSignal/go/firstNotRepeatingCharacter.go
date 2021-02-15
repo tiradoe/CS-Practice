@@ -1,13 +1,4 @@
-package main
-
-//import "fmt"
-
-//func main() {
-//	fmt.Println(firstNotRepeatingCharacter("abacabad"))
-//	fmt.Println(firstNotRepeatingCharacter("abacabaabacaba"))
-//	fmt.Println(firstNotRepeatingCharacter("abcdefghijklmnopqrstuvwxyziflskecznslkjfabe"))
-//
-//}
+package codesignal
 
 func firstNotRepeatingCharacter(s string) string {
 	duplicates := make(map[rune]int)
