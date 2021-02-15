@@ -1,9 +1,5 @@
 package codesignal
 
-import (
-	"fmt"
-)
-
 func rotateImage(a [][]int) [][]int {
 	// Transpose the grid
 	// 1,2,3      1,4,7
@@ -27,10 +23,4 @@ func rotateImage(a [][]int) [][]int {
 		}
 	}
 	return a
-}
-
-func displayGrid(a [][]int) {
-	for row := range a {
-		fmt.Println(a[row])
-	}
 }
