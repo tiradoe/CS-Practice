@@ -1,12 +1,10 @@
 package main
 
-import "fmt"
-
-func main() {
-	fmt.Println("bananahammock: ", checkPalindrome("bananahammock"))
-	fmt.Println("racecar: ", checkPalindrome("racecar"))
-	fmt.Println("abac: ", checkPalindrome("abac"))
-}
+//func main() {
+//	fmt.Println("bananahammock: ", checkPalindrome("bananahammock"))
+//	fmt.Println("racecar: ", checkPalindrome("racecar"))
+//	fmt.Println("abac: ", checkPalindrome("abac"))
+//}
 
 func checkPalindrome(inputString string) bool {
 	i := len(inputString) - 1
