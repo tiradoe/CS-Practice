@@ -35,6 +35,10 @@ class LinkedList
 
     public function remove(string $query)
     {
+        if ($this->length < 1) {
+            return;
+        }
+
         $previousNode = null;
         $currentNode = $this->head;
 
