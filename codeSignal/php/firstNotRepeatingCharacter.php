@@ -11,8 +11,8 @@ function firstNotRepeatingCharacter(string $string): string
         }
     }
 
-    foreach ($tempArray as $key => $letterCount) {
-        if ($letterCount === 1) return $key;
+    foreach ($tempArray as $letter => $letterCount) {
+        if ($letterCount === 1) return $letter;
     }
 
     return '_';
